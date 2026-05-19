@@ -1,0 +1,228 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+a:link{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(244, 235, 218);
+}
+
+header{
+    background-color: rgb(255, 202, 155);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* min-height: 10vh; */
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+#area{
+    padding-top: 15px;
+    box-shadow: 0 0 45px 10px rgb(39, 19, 4) inset;
+    min-height: 75vh;
+}
+.name{
+    margin: 6px;
+}
+h1{
+    font-size: 50px;
+    padding: 20px;
+}
+.logo{
+    border-radius: 50%;
+    max-height: 70px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+nav{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+ul, li{
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+.title{
+    text-align: center;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+.box{
+    margin: 25px;
+    padding: 10px;
+    width: 340px;
+    box-shadow: 0 0 10px 0 black;
+    border-radius: 10px;
+}
+.box>img{
+    margin: 10px;
+}
+h2{
+    text-align: center;
+    font-size: x-large;
+}
+.middle{
+    display: flex;
+    margin: 10px;
+}
+.button{
+    margin-top: 10px;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.7;
+    width: fit-content;
+    padding: 8px;
+    border-radius: 5px;
+   
+    font-size: 20px;
+    height: 40px;
+}
+.button a:link{
+    color: rgb(104, 68, 68);
+}
+.button a:hover{
+    color: white;
+}
+button{
+    background-color: pink;
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: pink;
+    border: none;
+    border-radius: 10px;
+}
+footer{
+    background-color:  rgb(255, 202, 155);
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    
+}
+#radioHead{
+    background: url('images/dashboard.png');
+    background-size: cover;
+    height: 200px;
+}
+#flex{
+    background: url('images/speakers.png');
+    background-size: cover;
+    height: 200px;
+}
+#mag{
+    background: url('images/magazine.png');
+    background-size: cover;
+    height: 200px;
+}
+#apple{
+    background: url('images/ApplePie.jpeg');
+    background-size: cover;
+    height: 200px;
+}
+#bookshelf{
+    background: url('images/bookshelf.png');
+    background-size: cover;
+    height: 200px;
+}
+#expenceTracker{
+    background: url('images/expenceTracker.png');
+    background-size: cover;
+    height: 200px;
+}
+#calculator{
+    background: url('images/calsculator.png');
+    background-size: cover;
+    height: 200px;
+}
+#budgetPlanning{
+    background: url('images/budgetPlanning.png');
+    background-size: cover;
+    height: 200px;
+}
+#distanceCalc{
+    background: url('images/ETA_Calc.png');
+    background-size: cover;
+    height: 200px;
+}
+#ageCounter{
+    background: url('images/ageCalc.png');
+    background-size: cover;
+    height: 200px;
+}
+#numberGame{
+    background: url('images/guessingGame.png');
+    background-size: cover;
+    height: 200px;
+}
+#votingApp{
+    background: url('images/votingApp.png');
+    background-size: cover;
+    height: 200px;
+}
+#memoryGame{
+    background: url('images/memoryGame.png');
+    background-size: cover;
+    height: 200px;
+}
+#unitConvert{
+    background: url('images/unitConvert.png');
+    background-size: cover;
+    height: 200px;
+}
+#textFormatter{
+    background: url('images/textFormatter.png');
+    background-size: cover;
+    height: 200px;
+}
+#seatingChart{
+    background: url('images/seatingChart.png');
+    background-size: cover;
+    height: 200px;
+}
+#flipCard{
+    background: url('images/FLIPCARD.png');
+    background-size: cover;
+    height: 200px;
+}
+#flashCards{
+    background: url('images/flashcards.png');
+    background-size: cover;
+    height: 200px;
+}
+#eventSpeakers{
+    background: url('images/eventSpeakers.png');
+    background-size: cover;
+    height: 200px;
+}
+#themeChanger{
+    background: url('images/Theme-Changer.png');
+    background-size: cover;
+    height: 200px;
+}
+#LIS{
+    background: url('images/LIS.png');
+    background-size: cover;
+    height: 200px;
+}
+#game2{
+    background: url('images/georgeGame.png');
+    background-size: cover;
+    height: 200px;
+}
